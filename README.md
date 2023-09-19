@@ -102,7 +102,33 @@ The Motor Vehicle Collisions person table contains details for people involved i
 - Google BigQuery (data warehousing)
 - Tableau (business intelligence and dashboarding)
 
-### 2.  Business Requirements Definition
+### 2. Business requirements definition: Develop Key Performance Indicators
+
+
+#### Number of Collisions by Year
+
+This KPI allows us to investigate what year collisions are more likely to occur and can help identify any seasonalities (patterns) that exist.
+
+#### Number of Collisions by Hour
+
+This KPI can show which time collisions are more likely to occur. The Metropolitan Transportation Authority can use this insight to increase public transportation during crash- prone hours to disincentivize driving. Also, the New York City Department of Transportation can use this KPI to evaluate the proposed congestion pricing initiative.
+
+#### Number of Victims by Month
+
+This KPI can help the audience easily digest when most collisions take place and allow experts to perhaps better plan city traffic during months of high collisions.
+
+#### Number of Victims by Age
+
+Public safety officials can create educational campaigns targeting the age and gender groups more likely to experience a collision. Influencers for each age group can persuade people to behave in ways that reduce traffic collisions.
+
+#### Number of Collisions by Zip Code
+
+The New York City Department of Transportation can prioritize the zip codes with higher collisions with initiatives to reduce and prevent collisions. Also, they can compare successful interventions in the boroughs with fewer collisions and allocate more funds to the more affected boroughs.
+
+#### Number of Cyclist Collisions by Year
+
+We want to see how the introduction of city bikes since 2013 affected overall cyclist collisions (injuries and death).
+
 
 
 
