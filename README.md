@@ -129,8 +129,23 @@ The New York City Department of Transportation can prioritize the zip codes with
 
 We want to see how the introduction of city bikes since 2013 affected overall cyclist collisions (injuries and death).
 
+### 3. Dimensional modeling 
+
+#### Kimball Bus Matrix:
+
+![Kimball_bus_matrix](images/bus_matrix.png)
+
+**The Kimball Bus Matrix** is a visual representation used in data warehousing to identify key business processes and their associated dimensions, aiding in the development of a dimensional data model. 
 
 
+#### Dimensional model
+
+![dimensional_model](images/dimensional_model.png)
+
+**Dimensional modeling** is a data modeling technique that structures data for efficient reporting and analysis, using fact tables for measures and dimension tables for descriptive attributes. This project's dimensional model consists of two facts tables and four dimensions.
+
+
+### 5. Project planning
 
 
 
