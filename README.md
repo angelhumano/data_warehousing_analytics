@@ -1,6 +1,6 @@
 # NYC motor vehicle collision transparency
 
-Author(s): Jason Jiang, Gabriel Fernandez and Jason Jiang
+Author(s): Gabriel Fernandez and Jason Jiang
 Fall 2022 (Updated: Sept. 2023)
 
 
@@ -15,10 +15,9 @@ Fall 2022 (Updated: Sept. 2023)
 **Concepts**: Data modeling, Dimensional modeling, ETL creation, Business intelligence application design and implementation, Data warehouse engineering
 
 
-The NYC Motor Vehicle Collision Transparency project analyzes and visualizes collision data to uncover patterns, factors, and demographic insights, with a focus on improving road safety transparency using tools like Lucidchart, Python, SQL, BigQuery, and Tableau.
 
 
-## Team members contributions
+## Team members' contributions
 
 In this team project, we initially collaborated closely on all aspects. However, during the later stages, we divided our responsibilities as follows:
 
@@ -296,6 +295,7 @@ The project was deployed on Tableau Public: [Chick this link to see our dashboar
 - Periodically monitor collision hotspots, which may need extra resources and attention. Continuously optimize resource allocation, focusing on high-collision zip codes. Collaborate with local authorities and communities to address specific road safety issues in these regions.
 
 - Collaborate withthe New York City Department of Transportation and Citi Bike operators to enhance cyclist safety through infrastructure improvements, educational campaigns, and bike-sharing safety measures to address the rise in cyclist injuries since 2013.
-- 
+  
 
-### Lessons learned :sparkles:
+
+
