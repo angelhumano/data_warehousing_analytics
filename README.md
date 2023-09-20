@@ -285,4 +285,13 @@ The project was deployed on Tableau Public: [Chick this link to see our dashboar
 ## Key insights :bulb:
 
 
+- Work together with the Metropolitan Transportation Authority to improve public transportation options and provide incentives during the peak collision hours of 5 pm to 6 pm. This can encourage fewer people to use private vehicles during these times and potentially reduce collisions.
+
+- Adapt educational campaigns on road safety to effectively reach male demographics, especially those aged 25 to 35 who are more prone to collisions. Engage male influencers to champion safe driving habits and raise awareness within this demographic.
+
+- Periodically monitor collision hotspots, which may need extra resources and attention. Continuously optimize resource allocation, focusing on high-collision zip codes. Collaborate with local authorities and communities to address specific road safety issues in these regions.
+
+- Collaborate withthe New York City Department of Transportation and Citi Bike operators to enhance cyclist safety through infrastructure improvements, educational campaigns, and bike-sharing safety measures to address the rise in cyclist injuries since 2013.
+- 
+
 ### Lessons learned :sparkles:
