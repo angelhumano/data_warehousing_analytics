@@ -189,6 +189,13 @@ In the BI application development stage, we employed Tableau to design and const
 
 <br>
 
+##### Insights
+
+-  Most collisions occur between 8 am and 6 pm, with the highest number happening at 5 and 6 pm.
+  
+<br>
+
+
 3. **Bubble graph** showing the number of victims by month (by year). The size of each bubble correlates to the number of victims for that month. This can help the audience easily digest when most collisions take place and allow experts to better plan city traffic during months of high collisions.
 
 <br>
@@ -197,12 +204,25 @@ In the BI application development stage, we employed Tableau to design and const
 
 <br>
 
+##### Insights
+
+- Regardless of the month, males have a higher likelihood of being involved in motor vehicle accidents than females.
+  
+<br>
+
 4. **Histogram** showing number of victims by age. A histogram works well here because it breaks down the frequency of collisions by age group (bins). We also further separated the data to look a male v.s female statistics of the victims. Public safety officials can create educational campaigns targeting the age and gender groups more likely to experience a collision.
    
 <br>
    
 ![Number of Victims by Age](images/number_of_victims_by_age.png)
 
+
+<br>
+
+##### Insights
+
+- Regardless of gender, individuals aged 25 to 35 are more likely to be involved in collisions
+  
 <br>
 
 6. Another l**ine graph** showing number of cyclist collisions by year. We want to see how the introduction of city bikes since 2013 affected overall cyclist collisions (injuries and death).
@@ -213,10 +233,23 @@ In the BI application development stage, we employed Tableau to design and const
 
 <br>
 
+
+##### Insights
+
+- We observed a significant increase in cyclist injuries in 2013, which coincided with the introduction of Citi Bike. This surge could be attributed to the growing popularity of bike-sharing programs, leading to a higher number of cyclists on the roads
+  
+<br>
+
 6. **GeoMap** showing number of collisions by zip code. Because our visuals are made in Tableau (and later published as dashboard), users can easily hover over the map to see the breakdown of collision counts by zip code. 
     
 ![Number of Collisions by Zip Code](images/number_of_collisions_by_zip_code_geomap.png)
 
+<br>
+
+##### Insights
+
+- The zip code 11207 has the highest total collisions, and neighboring zip codes exhibit similarly high numbers. This area, known as East New York, appears to be a notable hotspot for collisions.
+  
 <br>
 
 We originally had a **treemap graph** here showing areas of high collision, but it pushed out and made smaller collision count zip codes harder to see since size of the treemap directly correlates to collision count.
