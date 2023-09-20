@@ -6,13 +6,15 @@ Fall 2022 (Updated: Sept. 2023)
 
 ## Project bites :chocolate_bar:
 
-**Brief**: 
+**Brief**: The NYC Motor Vehicle Collision Transparency project analyzes and visualizes NYC motor vehicle collision data to reveal patterns, contributing factors, and demographic insights, with a focus on enhancing road safety transparency.
 
-**Key insights**: 
+**Key insights**: Decreased collisions in 2020 during the pandemic, peak collisions at 5-6 pm, higher male involvement, ages 25-35 prone to accidents, cyclist injuries rose in 2013 (Citi Bike), high-collision zone in zip code 11207.
 
-**Tools**: 
+**Tools**:  Lucidchart (design, drawings, and modeling), Python, SQL, and Colab for ETL (Extract, Transform, Load), Google BigQuery (data warehousing), Tableau (business intelligence and dashboarding)
 
-**Concepts**:
+**Concepts**: Data modeling, Dimensional modeling, ETL creation, Business intelligence application design and implementation, Data warehouse engineering
+
+
 
 ## Team members contributions
 
