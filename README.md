@@ -175,6 +175,12 @@ In the BI application development stage, we employed Tableau to design and const
 
 <br>
 
+##### Insights
+
+- We observed a significant decrease in collisions in 2020, which coincided with the onset of the COVID-19 pandemic. The pandemic measures possibly influenced traffic patterns in the city.
+  
+<br>
+
 2. **Bar chart** showing number of collisions by hour. This KPI can show which time (24-hour clock) collisions are more likely to occur. The Metropolitan Transportation Authority can use this insight to increase public transportation during crash- prone hours to disincentivize driving.
 
 <br>
