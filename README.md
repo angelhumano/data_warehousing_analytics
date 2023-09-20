@@ -152,6 +152,14 @@ We want to see how the introduction of city bikes since 2013 affected overall cy
 For more details refer to: [ETL PDF Version](ETL_final_version.pdf)
 
 
+### 5. BI application design
+
+In application design, we created a wireframe to assist with dashboard planning and user interface development for our data warehouse.
+
+![Wireframe](images/wireframe_design.png)
+
+### 6.
+
 
 
 ## Key insights :bulb:
