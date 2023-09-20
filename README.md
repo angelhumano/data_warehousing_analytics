@@ -21,14 +21,13 @@ Fall 2022 (Updated: Sept. 2023)
 
 In this team project, we initially collaborated closely on all aspects. However, during the later stages, we divided our responsibilities as follows:
 
-- Gabriel handled ETL tasks and data preparation for the dashboard phase, while Jason reviewed his work.
+- Gabriel handled ETL tasks and data preparation for the dashboard phase while Jason reviewed his work.
 - Jason concentrated on designing the Tableau dashboard, with Gabriel providing feedback on his work.
   
-We split responsibilities to make the most of our strengths and get things done efficiently.
+We split responsibilities to maximize our strengths and get things done efficiently.
 
 ## Project objective :dart:
-Following the Kimball Lifecycle to design and develop a public, cloud-based data warehouse with a functioning Business Intelligence (BI) applications.
-
+Following the Kimball Lifecycle to design and develop a public, cloud-based data warehouse with functioning Business Intelligence (BI) applications.
 
 ## Project workflow: [Kimball Lifecycle](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dw-bi-lifecycle-method/)
 
@@ -47,8 +46,8 @@ We want to see how traffic collisions in NYC changed over the years and if addit
     - Driver’s license status
 - What are the areas in the city most prone to collisions? (Boroughs, Zip Codes, etc.)
 - What time are collisions more likely to occur? (Rush hour, mornings, etc.)
-- Which are contributing factors of collisions in NYC?
-    - Person emotional status
+- What are the contributing factors of collisions in NYC?
+    - Person's emotional status
     - Pre-crash action (right turns, merges, etc.)
 - What are the demographics of those involved in collisions?
     - Gender
@@ -72,11 +71,11 @@ By identifying the context of motor vehicle accidents, we can come up with sugge
 
 #### Dataset 1: [Motor Vehicle Collisions - Crashes](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95)
 
-The Motor Vehicle Collisions crash table contains details on the crash event. Each row represents a crash event. The Motor Vehicle Collisions data tables contain information from all police reported motor vehicle collisions in NYC.
+The Motor Vehicle Collisions crash table contains details on the crash event. Each row represents a crash event. The Motor Vehicle Collisions data tables contain information from all police-reported motor vehicle collisions in NYC.
 
 #### Dataset 2: [Motor Vehicle Collisions - Person](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Person/f55k-p6yu)
 
-The Motor Vehicle Collisions person table contains details for people involved in the crash. Each row represents a person (driver, occupant, pedestrian, bicyclist,..) involved in a crash. The data in this table goes back to April 2016 when crash reporting switched to an electronic system. 
+The Motor Vehicle Collisions person table contains details for people involved in the crash. Each row represents a person (driver, occupant, pedestrian, bicyclist, etc.) involved in a crash. The data in this table goes back to April 2016, when crash reporting switched to an electronic system. 
 
 #####  Is the data we have conformed, consistent, and current? (data quality)
 
@@ -107,18 +106,17 @@ The Motor Vehicle Collisions person table contains details for people involved i
 
 ### 2. Business requirements definition: Develop Key Performance Indicators
 
-
 #### Number of Collisions by Year
 
 This KPI allows us to investigate what year collisions are more likely to occur and can help identify any seasonalities (patterns) that exist.
 
 #### Number of Collisions by Hour
 
-This KPI can show which time collisions are more likely to occur. The Metropolitan Transportation Authority can use this insight to increase public transportation during crash- prone hours to disincentivize driving. Also, the New York City Department of Transportation can use this KPI to evaluate the proposed congestion pricing initiative.
+This KPI can show which time collisions are more likely to occur. The Metropolitan Transportation Authority can use this insight to increase public transportation during crash-prone hours to disincentivize driving. Also, the New York City Department of Transportation can use this KPI to evaluate the proposed congestion pricing initiative.
 
 #### Number of Victims by Month
 
-This KPI can help the audience easily digest when most collisions take place and allow experts to perhaps better plan city traffic during months of high collisions.
+This KPI helps the audience easily digest when most collisions take place and allows experts to better plan city traffic during months of high collisions.
 
 #### Number of Victims by Age
 
@@ -130,7 +128,7 @@ The New York City Department of Transportation can prioritize the zip codes with
 
 #### Number of Cyclist Collisions by Year
 
-We want to see how the introduction of city bikes since 2013 affected overall cyclist collisions (injuries and death).
+We want to see how the introduction of city bikes in 2013 affected overall cyclist collisions (injuries and deaths).
 
 ### 3. Dimensional modeling 
 
