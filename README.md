@@ -160,8 +160,49 @@ In application design, we created a wireframe to assist with dashboard planning 
 
 ### 6. BI application development
 
+In the BI application development stage, we employed Tableau to design and construct two dashboards for sharing our key performance indicators (KPIs).
+
+![connect_data_tableau](images/connecting_data_to_tableau.png)
 
 
+#### Visualizations for each KPI:
+
+1. **Line chart** showing number of collisions by year allows us to see changes that occur over time. This allows us to investigate what year collisions are more likely to occur.
+   
+![Number of Collisions by Year](images/number_of_collisions_by_year.png)
+
+3. **Bar chart** showing number of collisions by hour. This KPI can show which time (24-hour clock) collisions are more likely to occur. The Metropolitan Transportation Authority can use this insight to increase public transportation during crash- prone hours to disincentivize driving.
+   
+![Number of Collisions by Hour](images/number_of_collisions_by_hour.png) 
+
+5. **Bubble graph** showing the number of victims by month (by year). The size of each bubble correlates to the number of victims for that month. This can help the audience easily digest when most collisions take place and allow experts to better plan city traffic during months of high collisions.
+   
+![Number of Victims by Month](images/number_of_victims_by_month.png) 
+
+7. **Histogram** showing number of victims by age. A histogram works well here because it breaks down the frequency of collisions by age group (bins). We also further separated the data to look a male v.s female statistics of the victims. Public safety officials can create educational campaigns targeting the age and gender groups more likely to experience a collision.
+   
+![Number of Victims by Age](images/number_of_victims_by_age.png)
+
+9. Another l**ine graph** showing number of cyclist collisions by year. We want to see how the introduction of city bikes since 2013 affected overall cyclist collisions (injuries and death).
+    
+![Number of Cyclist Collisions by Year](images/number_of_cyclist_collisions_by_year.png)
+
+11. **GeoMap** showing number of collisions by zip code. Because our visuals are made in Tableau (and later published as dashboard), users can easily hover over the map to see the breakdown of collision counts by zip code. We originally had a treemap graph here showing areas of high collision, but it pushed out and made smaller collision count zip codes harder to see since size of the treemap directly correlates to collision count.
+    
+![Number of Collisions by Zip Code](images/number_of_collisions_by_zip_code_geomap.png)
+
+
+#### Dashboard 1
+
+![Dashboard1](images/dasboard1.png)
+
+#### Dashboard 2
+
+![Dashboard2](images/dasboard2.png)
+
+### 6.Deployment
+
+The project was deployed on Tableau Public: [Chick this link to see our dashboards](https://public.tableau.com/app/profile/jason.jiang4864/viz/NYCMotorVehicleCollisionTransparency_Story/Story?publish=yes)
 
 
 
