@@ -148,7 +148,7 @@ We want to see how the introduction of city bikes since 2013 affected overall cy
 ### 4. ETL design and development
 ![ETL](images/ETL.png)
 
-**ETL (Extract, Transform, Load)** refers to the process of extracting data from various sources, transforming it into a usable format, and then loading it into a data warehouse or database for analysis and reporting. We use Python and SQL to clean, prepare, and transform data extracted from NYC Open Data through the Socarata API, and then load it into our selected data warehouse (BigQuery).
+** ETL (Extract, Transform, Load)** refers to the process of extracting data from various sources, transforming it into a usable format, and then loading it into a data warehouse or database for analysis and reporting. We use Python and SQL to clean, prepare, and transform data extracted from NYC Open Data through the Socarata API, and then load it into our selected data warehouse (BigQuery). Finally, we connected Tableau with BigQuery to develop our business intelligence app (dashboards) for steps 6 and 7 of the Kimball Lifecycle .
 For more details refer to: [ETL PDF Version](ETL_final_version.pdf)
 
 
