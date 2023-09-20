@@ -158,7 +158,10 @@ In application design, we created a wireframe to assist with dashboard planning 
 
 ![Wireframe](images/wireframe_design.png)
 
-### 6.
+### 6. BI application development
+
+
+
 
 
 
