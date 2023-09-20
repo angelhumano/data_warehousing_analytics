@@ -207,9 +207,17 @@ In the BI application development stage, we employed Tableau to design and const
 
 <br>
 
-6. **GeoMap** showing number of collisions by zip code. Because our visuals are made in Tableau (and later published as dashboard), users can easily hover over the map to see the breakdown of collision counts by zip code. We originally had a treemap graph here showing areas of high collision, but it pushed out and made smaller collision count zip codes harder to see since size of the treemap directly correlates to collision count.
+6. **GeoMap** showing number of collisions by zip code. Because our visuals are made in Tableau (and later published as dashboard), users can easily hover over the map to see the breakdown of collision counts by zip code. 
     
 ![Number of Collisions by Zip Code](images/number_of_collisions_by_zip_code_geomap.png)
+
+<br>
+
+We originally had a **treemap graph** here showing areas of high collision, but it pushed out and made smaller collision count zip codes harder to see since size of the treemap directly correlates to collision count.
+
+<br>
+
+![Number of Collisions by Zip Code treemap](images/number_of_collisions_by_zip_code_treemap.png)
 
 <br>
 
