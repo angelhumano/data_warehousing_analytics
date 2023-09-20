@@ -149,13 +149,13 @@ We want to see how the introduction of city bikes in 2013 affected overall cycli
 ### 4. ETL design and development
 ![ETL](images/ETL.png)
 
-** ETL (Extract, Transform, Load)** refers to the process of extracting data from various sources, transforming it into a usable format, and then loading it into a data warehouse or database for analysis and reporting. We use Python and SQL to clean, prepare, and transform data extracted from NYC Open Data through the Socarata API, and then load it into our selected data warehouse (BigQuery). Finally, we connected Tableau with BigQuery to develop our business intelligence app (dashboards) for steps 6 and 7 of the Kimball Lifecycle .
-For more details refer to: [ETL PDF Version](ETL_final_version.pdf)
+** ETL (Extract, Transform, Load)** refers to the process of extracting data from various sources, transforming it into a usable format, and then loading it into a data warehouse or database for analysis and reporting. We use Python and SQL to clean, prepare, and transform data extracted from NYC Open Data through the Socarata API and then load it into our selected data warehouse (BigQuery). Finally, we connected Tableau with BigQuery to develop our business intelligence app (dashboards) for steps 6 and 7 of the Kimball Lifecycle.
+For more details, refer to [ETL PDF Version](ETL_final_version.pdf)
 
 
 ### 5. BI application design
 
-In application design, we created a wireframe to assist with dashboard planning and user interface development for our data warehouse.
+We created a wireframe in application design to assist with dashboard planning and user interface development for our data warehouse.
 
 ![Wireframe](images/wireframe_design.png)
 
@@ -165,10 +165,9 @@ In the BI application development stage, we employed Tableau to design and const
 
 ![connect_data_tableau](images/connecting_data_to_tableau.png)
 
-
 #### Visualizations for each KPI:
 
-1. **Line chart** showing number of collisions by year allows us to see changes that occur over time. This allows us to investigate what year collisions are more likely to occur.
+1. **Line chart** showing the number of collisions by year allows us to see changes that occur over time. This allows us to investigate what year collisions are more likely to occur.
 
 <br>
    
@@ -182,7 +181,7 @@ In the BI application development stage, we employed Tableau to design and const
   
 <br>
 
-2. **Bar chart** showing number of collisions by hour. This KPI can show which time (24-hour clock) collisions are more likely to occur. The Metropolitan Transportation Authority can use this insight to increase public transportation during crash- prone hours to disincentivize driving.
+2. **Bar chart** showing the number of collisions by hour. This KPI can show which time (24-hour clock) collisions are more likely to occur. The Metropolitan Transportation Authority can use this insight to increase public transportation during crash-prone hours to disincentivize driving.
 
 <br>
    
@@ -211,7 +210,7 @@ In the BI application development stage, we employed Tableau to design and const
   
 <br>
 
-4. **Histogram** showing number of victims by age. A histogram works well here because it breaks down the frequency of collisions by age group (bins). We also further separated the data to look a male v.s female statistics of the victims. Public safety officials can create educational campaigns targeting the age and gender groups more likely to experience a collision.
+4. **Histogram** showing the number of victims by age. A histogram works well here because it breaks down the frequency of collisions by age group (bins). We also further separated the data to look at male vs. female statistics of the victims. Public safety officials can create educational campaigns targeting the age and gender groups more likely to experience a collision.
    
 <br>
    
@@ -226,7 +225,7 @@ In the BI application development stage, we employed Tableau to design and const
   
 <br>
 
-6. Another l**ine graph** showing number of cyclist collisions by year. We want to see how the introduction of city bikes since 2013 affected overall cyclist collisions (injuries and death).
+6. Another **line graph** showing the number of cyclist collisions by year. We want to see how the introduction of city bikes in 2013 affected overall cyclist collisions (injuries and death).
 
 <br>
 
@@ -237,11 +236,11 @@ In the BI application development stage, we employed Tableau to design and const
 
 ##### Insights
 
-- We observed a significant increase in cyclist injuries in 2013, which coincided with the introduction of Citi Bike. This surge could be attributed to the growing popularity of bike-sharing programs, leading to a higher number of cyclists on the roads
+- We observed a significant increase in cyclist injuries in 2013, coinciding with Citi Bike's introduction. This surge could be attributed to the growing popularity of bike-sharing programs, leading to a higher number of cyclists on the roads
   
 <br>
 
-6. **GeoMap** showing number of collisions by zip code. Because our visuals are made in Tableau (and later published as dashboard), users can easily hover over the map to see the breakdown of collision counts by zip code. 
+6. **GeoMap** showing the number of collisions by zip code. Because our visuals are made in Tableau (later published as a dashboard), users can easily hover over the map to see the breakdown of collision counts by zip code. 
     
 ![Number of Collisions by Zip Code](images/number_of_collisions_by_zip_code_geomap.png)
 
@@ -253,7 +252,7 @@ In the BI application development stage, we employed Tableau to design and const
   
 <br>
 
-We originally had a **treemap graph** here showing areas of high collision, but it pushed out and made smaller collision count zip codes harder to see since size of the treemap directly correlates to collision count.
+We originally had a **treemap graph** here showing areas of high collision. Still, it pushed out and made smaller collision count zip codes harder to see since the size of the treemap directly correlates to collision count.
 
 <br>
 
@@ -279,20 +278,21 @@ We originally had a **treemap graph** here showing areas of high collision, but 
 
 ### 6.Deployment
 
-The project was deployed on Tableau Public: [Chick this link to see our dashboards](https://public.tableau.com/app/profile/jason.jiang4864/viz/NYCMotorVehicleCollisionTransparency_Story/Story?publish=yes)
+The project was deployed on Tableau Public: [Click this link to see our dashboards](https://public.tableau.com/app/profile/jason.jiang4864/viz/NYCMotorVehicleCollisionTransparency_Story/Story?publish=yes)
 
 
 
 ## Key insights :bulb:
 
 
-- Work together with the Metropolitan Transportation Authority to improve public transportation options and provide incentives during the peak collision hours of 5 pm to 6 pm. This can encourage fewer people to use private vehicles during these times and potentially reduce collisions.
+- Work with the Metropolitan Transportation Authority to improve public transportation options and provide incentives during the peak collision hours of 5 pm to 6 pm. This can encourage fewer people to use private vehicles during these times and potentially reduce collisions.
 
-- Adapt educational campaigns on road safety to effectively reach male demographics, especially those aged 25 to 35 who are more prone to collisions. Engage male influencers to champion safe driving habits and raise awareness within this demographic.
+- Adapt educational campaigns on road safety to effectively reach male demographics, especially those aged 25 to 35 more prone to collisions. Engage male influencers to champion safe driving habits and raise awareness within this demographic.
 
 - Periodically monitor collision hotspots, which may need extra resources and attention. Continuously optimize resource allocation, focusing on high-collision zip codes. Collaborate with local authorities and communities to address specific road safety issues in these regions.
 
-- Collaborate withthe New York City Department of Transportation and Citi Bike operators to enhance cyclist safety through infrastructure improvements, educational campaigns, and bike-sharing safety measures to address the rise in cyclist injuries since 2013.
+- Collaborate with the New York City Department of Transportation and Citi Bike operators to enhance cyclist safety through infrastructure improvements, educational campaigns, and bike-sharing safety measures to address the rise in cyclist injuries since 2013.
+
   
 
 
