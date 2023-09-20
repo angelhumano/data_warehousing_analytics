@@ -12,8 +12,7 @@ Fall 2022 (Updated: Sept. 2023)
 
 **Tools**:  Lucidchart (design, drawings, and modeling), Python, SQL, and Colab for ETL (Extract, Transform, Load), Google BigQuery (data warehousing), Tableau (business intelligence and dashboarding)
 
-**Concepts**: Data modeling, Dimensional modeling, ETL creation, Business intelligence application design and implementation, Data warehouse engineering
-
+**Concepts**: Dimensional Modeling, ETL creation, Data Warehousing Analytics, Business Intelligence application design, and implementation.
 
 
 
