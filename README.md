@@ -145,7 +145,12 @@ We want to see how the introduction of city bikes since 2013 affected overall cy
 **Dimensional modeling** is a data modeling technique that structures data for efficient reporting and analysis, using fact tables for measures and dimension tables for descriptive attributes. This project's dimensional model consists of two facts tables and four dimensions.
 
 
-### 5. Project planning
+### 4. ETL design and development
+![ETL](images/ETL.png)
+
+**ETL (Extract, Transform, Load)** refers to the process of extracting data from various sources, transforming it into a usable format, and then loading it into a data warehouse or database for analysis and reporting. We use Python and SQL to clean, prepare, and transform data extracted from NYC Open Data through the Socarata API, and then load it into our selected data warehouse (BigQuery).
+For more details refer to: [ETL PDF Version](ETL_final_version.pdf)
+
 
 
 
