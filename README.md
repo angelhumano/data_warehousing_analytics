@@ -81,7 +81,7 @@ The Motor Vehicle Collisions person table contains details for people involved i
 | Attribute                   | Status | Rationale                                   |
 |-----------------------------|--------|---------------------------------------------|
 | Conformed                   | Yes    | Datasets have the same units and convention.|
-| Consistent                  | Yes    | Datasets share a primary key for unique info.|
+| Consistent                  | Yes    | Datasets share a primary key |
 | Current                     | Yes    | The two datasets are up-to-date: <br> - Motor Vehicle Collisions Crashes (last updated September 22, 2022) <br>  - Motor Vehicle Collisions - Person (last updated September 22, 2022) |
 
  
