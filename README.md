@@ -1,4 +1,4 @@
-# NYC motor vehicle collision transparency
+# NYC motor vehicle collisions transparency
 
 Author(s): Gabriel Fernandez and Jason Jiang
 Fall 2022 (Updated: Sept. 2023)
@@ -6,7 +6,7 @@ Fall 2022 (Updated: Sept. 2023)
 
 ## Project bites :chocolate_bar:
 
-**Brief**: The NYC Motor Vehicle Collision Transparency project analyzes and visualizes NYC motor vehicle collision data to reveal patterns, contributing factors, and demographic insights, with a focus on enhancing road safety transparency.
+**Brief**: This project analyzes and visualizes NYC motor vehicle collision data to reveal patterns, contributing factors, and demographic insights, with a focus on enhancing road safety transparency.
 
 **Key insights**: Decreased collisions in 2020 during the pandemic, peak collisions at 5-6 pm, higher male involvement, ages 25-35 prone to accidents, cyclist injuries rose in 2013 (Citi Bike), high-collision zone in zip code 11207.
 
