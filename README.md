@@ -1,6 +1,7 @@
 # NYC motor vehicle collisions transparency
 
 Author(s): Gabriel Fernandez and Jason Jiang
+<br>
 Fall 2022 (Updated: Sept. 2023)
 
 
