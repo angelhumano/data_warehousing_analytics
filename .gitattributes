@@ -1,0 +1,3 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+ETL_final_version.pdf linguist-language=Python
